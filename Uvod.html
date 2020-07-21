@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="Phaser, Canvas, WebGL, Igrice, Web tehnologije, Framework">
+  <title> Uvod</title>
+  <link rel="shortcut icon" href="img/lean.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div  id="navbar" class="row">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <a class="navbar-brand" href="index.html"> <img id="logo" alt="Phaser" src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        </div>
+        <div class="col-xl-9 col-lg-9 col-md-6 col-sm-6">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Uvod.html">Uvod</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Igrice.html">Igrice</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Naucite.html">Naučite</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Preuzimanja.html">Preuzimanja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Oprojektu.html">O projektu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="ctn" class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <h1 class="glow">Uvod u Phaser</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 hov1">
+          <img class="rounded-circle" src="img/uvod1.jpg" alt="Phaser" width="240" height="240">
+          <br>
+          <br>
+          <h2 class="uh1">Phaser i web pretraživači</h2>
+          <p class="uh2">Jedini zahtev za korišćenje Phaser-a je web pregledač koji podržava "canvas" HTML tag.
+            Za desktop računare ovo uključuje Chrome, Firefox, Safari, IE9+ i Opera pretraživač.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 hov1">
+          <img class="rounded-circle" src="img/uvod2.jpg" alt="Phaser" width="240" height="240">
+          <br>
+          <br>
+          <h2 class="uh1">Elementi Phaser-a</h2>
+          <p class="uh2">Glavni elementi su statičke i dinamičke slike i mehanizmi za pravljenje animacija.
+            Phaser je podžan na svim platformama: desktopu, tabletu i mobilnim telefonima.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 hov1">
+          <img class="rounded-circle" src="img/uvod3.jpg" alt="Phaser" width="240" height="240">
+          <br>
+          <br>
+          <h2 class="uh1">Web stranica Phaser-a</h2>
+          <p class="uh2">Web stranica Phaser-a sadrži opsežnu dokumentaciju, koja između ostalog sadrži nekoliko
+            zvaničnih
+            tutorijala. Takođe, mogu se pronaći i samostalno pisani tutorijali i veliki broj primera koji
+            pokazuju različite karakteristie Phaser-a.</p>
+          <p><a class="btn btn-secondary" href="https://phaser.io/" role="button">Saznaj više... »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+    <br>
+    <br>
+    <hr>
+    <div id="ctn1" class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 sadr1">
+          <h2> Šta je Phaser? </h2>
+          <br>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 hov1">
+          <br>
+          <br>
+          <p id="sadrzaj" class="uh2">Phaser je HTML5 framework (okvir) za pravljenje igara koji ima za cilj da
+            pomogne programerima da naprave snažne,
+            cross-browser HTML5 igre veoma brzo i jednostavno. Napravljen je posebno da bi iskoristio prednosti
+            modernih
+            pretraživača, kako desktop tako i mobilnih. Jedini zahtev za pregledač je podrška za <b>canvas
+              tag</b>.</p>
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+
+          <iframe width="600" height="345" src="https://www.youtube.com/embed/yxbmoFm0d4k" frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <hr>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 sadr1">
+            <h2> Razvoj Phaser-a </h2>
+          </div>
+          <br><br><br><br>
+          <div class="col-lg-7  col-lg-7 col-md-12 col-sm-12">
+            <img src="img/uvod4.png" alt="Phaser" width="90%">
+          </div>
+
+          <div class="col-lg-5 col-lg-5 col-md-12 col-sm-12 hov1">
+            <br>
+            <p class="uh2">Richard Davey najavio je prvo izdanje Phaser-a na blogu u aprilu 2013.
+              godine. Verzija 1.0 je
+              izdata u septembru, uključujući i Pixi.js biblioteku za rendering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="row">
+          <div class="col-lg-6 col-lg-6 col-md-12 col-sm-12 hov1">
+            <br>
+            <p class="uh2">Poslednja zvanična verzija jeste Phaser 3.0.0 i objavljena je 13.
+              februara 2018. godine, a
+              razvoj je u toku na Github-u. Većina elemenata i karakteristika okvira je
+              ponovo izgrađena od nule koristeći potpuno modularnu struktutu i pristup orijentisan na
+              podatke. Phaser 3 uključuje potpuno novi prilagođeni WebGL render dizajn za
+              moderne 2d igre. Veliki deo dokumentacije i primera za korisnike tek treba završiti, iako je
+              većina već implementirana.</p>
+          </div>
+          <div class="col-lg-6 col-lg-6 col-md-12 col-sm-12 ">
+            <img src="img/uvod5.png" alt="Phaser" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="row">
+          <div class="col-lg-6  col-lg-6 col-md-12 col-sm-12">
+            <img src="img/uvod6.png" alt="Phaser" width="100%">
+          </div>
+
+          <div class="col-lg-6  col-lg-6 col-md-12 col-sm-12 hov1">
+            <br>
+            <p class="uh2">Phaser se koristi za kreiranje mnogih igara za web i mobilne uređaje
+              od kojih neke postaju jako popularne.
+              Nedavno je korišćen i za razvoj igara za Android televizore. Postoji veliki broj igara
+              kreiranih pomoću Phasera. Kako popularnost Phasera iz dana u dan sve više raste, smatra se
+              da će se u budućnosti postojati sve veći broj igrica kreiranih pomoću njega.</p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Na vrh</button>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+
+          <div class="container-fluid text-center bg-lightgray">
+            <div class="copyrights" style="margin-top:25px;">
+              <p><a href="https://phaser.io/" target="_blank"> <img src="img/lean.png" alt="Phaser" width="3%" height="3%">
+                  Phaser <img src="img/lean.png" alt="Phaser" width="3%" height="3%"> </a></p>
+              <p><a href="http://www.ftn.kg.ac.rs/">Fakultet tehničkih nauka<br></a>
+
+                <span>Čačak © 2019, All Rights Reserved </span>
+                <div class="footer1"><a href="https://phaser.discourse.group/"><img src="img/footer.png" alt="Blog"
+                      width="3%" height="3%"></a>
+                  <a href="https://twitter.com/phaser_"><img src="img/footer1.png" alt="Twitter" width="3%" height="3%"></a>
+                  <a href="https://github.com/photonstorm/phaser"><img src="img/footer2.jpg" alt="GitHub" width="3%"
+                      height="3%"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
